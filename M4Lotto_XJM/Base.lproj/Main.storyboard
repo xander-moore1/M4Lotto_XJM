@@ -24,7 +24,6 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="height" multiplier="1:1" id="Cav-c0-zCT"/>
-                                            <constraint firstAttribute="width" constant="60" id="V3h-xf-6hh"/>
                                             <constraint firstAttribute="height" constant="60" id="dU0-By-BN4"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -37,7 +36,6 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="0Kb-YJ-yB5" secondAttribute="height" multiplier="1:1" id="8qv-VA-IBV"/>
                                             <constraint firstAttribute="height" constant="60" id="Bcj-aV-LZh"/>
-                                            <constraint firstAttribute="width" constant="60" id="saT-zW-FXG"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
@@ -47,7 +45,6 @@
                                         <rect key="frame" x="188" y="0.0" width="60" height="60"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="ETX-gc-tVD"/>
                                             <constraint firstAttribute="width" secondItem="Yy9-EY-WhI" secondAttribute="height" multiplier="1:1" id="Wc9-Ui-b23"/>
                                             <constraint firstAttribute="height" constant="60" id="fg6-PK-xXa"/>
                                         </constraints>
@@ -60,7 +57,6 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bC4-AN-el7" secondAttribute="height" multiplier="1:1" id="78p-CL-6Ag"/>
-                                            <constraint firstAttribute="width" constant="60" id="GEk-yr-izt"/>
                                             <constraint firstAttribute="height" constant="60" id="jqc-bS-TJ5"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -73,7 +69,6 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Zu2-He-S6D" secondAttribute="height" multiplier="1:1" id="TNP-iW-hwq"/>
                                             <constraint firstAttribute="height" constant="60" id="oat-7z-9Ae"/>
-                                            <constraint firstAttribute="width" constant="60" id="s13-In-1z2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
@@ -84,7 +79,6 @@
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="ISp-Jt-mjG"/>
-                                            <constraint firstAttribute="width" constant="60" id="RY9-gA-raM"/>
                                             <constraint firstAttribute="width" secondItem="m2M-gc-51a" secondAttribute="height" multiplier="1:1" id="eyu-le-qzm"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -95,7 +89,6 @@
                                         <rect key="frame" x="564" y="0.0" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="yi6-yH-KId" secondAttribute="height" multiplier="1:1" id="BlW-Hy-Clu"/>
-                                            <constraint firstAttribute="width" constant="60" id="G9v-W0-7uY"/>
                                             <constraint firstAttribute="height" constant="60" id="p1J-ax-3dc"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -108,31 +101,47 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ObT-DM-91X" secondAttribute="height" multiplier="1:1" id="IY0-tC-I9N"/>
                                             <constraint firstAttribute="height" constant="60" id="K5s-Zz-3rH"/>
-                                            <constraint firstAttribute="width" constant="60" id="yXV-nm-qhe"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="ObT-DM-91X" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="0fU-Go-yVI"/>
+                                    <constraint firstItem="0Kb-YJ-yB5" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="818-Up-OFS"/>
+                                    <constraint firstItem="ObT-DM-91X" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="Deq-mC-i3Q"/>
+                                    <constraint firstItem="Yy9-EY-WhI" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="Fad-vw-EMf"/>
+                                    <constraint firstItem="0Kb-YJ-yB5" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="GSq-vr-afq"/>
+                                    <constraint firstItem="yi6-yH-KId" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="MY5-Se-ZXa"/>
+                                    <constraint firstItem="Zu2-He-S6D" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="Phz-VQ-Bww"/>
+                                    <constraint firstItem="m2M-gc-51a" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="Wge-kA-RZW"/>
+                                    <constraint firstItem="bC4-AN-el7" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="eoj-CA-0dx"/>
+                                    <constraint firstItem="Zu2-He-S6D" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="sTe-sm-L0K"/>
+                                    <constraint firstItem="yi6-yH-KId" firstAttribute="height" secondItem="g7l-53-BoA" secondAttribute="height" id="tdX-BN-3Bf"/>
+                                    <constraint firstItem="Yy9-EY-WhI" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="vv8-Wi-j6S"/>
+                                    <constraint firstItem="m2M-gc-51a" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="vwa-xE-vL2"/>
+                                    <constraint firstItem="bC4-AN-el7" firstAttribute="width" secondItem="g7l-53-BoA" secondAttribute="width" id="xkq-5j-avq"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xgm-Fe-ivp" secondAttribute="trailing" constant="10" id="9go-Tq-08G"/>
-                            <constraint firstItem="xgm-Fe-ivp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Dk7-PI-JSG"/>
-                            <constraint firstItem="xgm-Fe-ivp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="fBD-4x-6Rc"/>
+                            <constraint firstItem="xgm-Fe-ivp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="NBx-Ap-IG7"/>
+                            <constraint firstItem="xgm-Fe-ivp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Wgm-J1-Sr1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xgm-Fe-ivp" secondAttribute="trailing" constant="10" id="YXg-MU-zdV"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="numLabel1" destination="g7l-53-BoA" id="ES1-ab-xxs"/>
-                        <outlet property="numLabel2" destination="0Kb-YJ-yB5" id="dQQ-y4-FYM"/>
-                        <outlet property="numLabel3" destination="Yy9-EY-WhI" id="b0x-vt-G98"/>
-                        <outlet property="numLabel4" destination="bC4-AN-el7" id="gTb-iI-7Wj"/>
-                        <outlet property="numLabel5" destination="Zu2-He-S6D" id="6W9-ww-fw8"/>
-                        <outlet property="numLabel6" destination="m2M-gc-51a" id="LuL-i0-Ph1"/>
-                        <outlet property="numLabel7" destination="ObT-DM-91X" id="8A4-Zk-Enl"/>
+                        <outlet property="numLabel1" destination="g7l-53-BoA" id="Gp1-qL-wdI"/>
+                        <outletCollection property="labels" destination="g7l-53-BoA" collectionClass="NSMutableArray" id="PBD-kI-3Gk"/>
+                        <outletCollection property="labels" destination="0Kb-YJ-yB5" collectionClass="NSMutableArray" id="ig1-PF-aBm"/>
+                        <outletCollection property="labels" destination="Yy9-EY-WhI" collectionClass="NSMutableArray" id="QaC-Sy-0SG"/>
+                        <outletCollection property="labels" destination="bC4-AN-el7" collectionClass="NSMutableArray" id="OsY-mk-QG0"/>
+                        <outletCollection property="labels" destination="Zu2-He-S6D" collectionClass="NSMutableArray" id="VBt-9A-wAa"/>
+                        <outletCollection property="labels" destination="m2M-gc-51a" collectionClass="NSMutableArray" id="rxV-YX-V7U"/>
+                        <outletCollection property="labels" destination="ObT-DM-91X" collectionClass="NSMutableArray" id="X8H-7q-JTH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
